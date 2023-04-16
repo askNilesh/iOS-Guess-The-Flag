@@ -84,7 +84,7 @@ struct ContentView: View {
         if(number == correctAnswer){
             scroreTitle = "Correct"
             scoreCount += 1
-            message = "Correct, this is the flag of \(correctAnswer)"
+            message = "Correct, this is the flag of \(countries[correctAnswer])"
         }else {
             scroreTitle = "Wrong"
             message = "Wrong, this is the flag of \(countries[number])"
